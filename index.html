@@ -1,15 +1,26 @@
 <!DOCTYPE html>
+<html>
 <head>
-
+    <style>body {font-family: Arial;}
+        .top{overflow: hidden;border: 1px solid #ccc;background-color: #ad8105}
+        .top button{background-color: inherit;float: left;border:none;outline:none;cursor:pointer
+        ;padding:14px;transition:0.3s;font-size:17px;}
+        .top button:hover {background-color: #08bd20}
+        .top buttton.active{background-color: #ccc}
+        .rows{display:none;padding:6px 12px;border:1px soild #ccc;border-top:none}
+        .no {color: red;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+      * {box-sizing: border-box;}
+      .column {float: left;width: 50%;padding: 5px;height: 50px;}
+      .row:after {content: "";display: table;clear: both;}
+        </style>
 </head>
 <body>
-<div id="top-bars">
+<div id="top">
     <div class="rows">
-         <button> Home </button> 
-         <button> Menu </button> 
-         <button> Order </button> 
-         <button> About </button> 
-         <button> Cereers </button> 
+         <button onclick="ohio(event,'Home')"> Home </button> 
+         <button onclick="ohio(event,'Menu')"> Menu </button> 
+         <button onclick="ohio(event,'Order')"> Order </button> 
+         <button onclick="ohio(event,'About')"> About </button> 
     </div>
 
 
@@ -21,4 +32,4 @@
     <script>
 
     </script>
-</body>
+</body></html>
