@@ -2,12 +2,12 @@
 <html>
 <head>
     <style>body {font-family: Arial;}
-        .top{overflow: hidden;border: 1px solid #ccc;background-color: #ad8105}
-        .top button{background-color: inherit;float: left;border:none;outline:none;cursor:pointer
-        ;padding:14px;transition:0.3s;font-size:17px;}
+        .top{overflow: hidden;border: 5px solid #ccc;background-color: #FFFFFF}
+        .top button{background-color: inherit;border:2px solid;outline:none;
+        ;padding:30px;transition:0.5s;font-size:28px;font-family: Montserrat}
         .top button:hover {background-color: #08bd20}
         .top buttton.active{background-color: #ccc}
-        .rows{display:none;padding:6px 12px;border:1px soild #ccc;border-top:none}
+        .rowb{display:none;padding:6px;border:1px soild #ccc;border-top:none}
         .no {color: red;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
       * {box-sizing: border-box;}
       .column {float: left;width: 50%;padding: 5px;height: 50px;}
@@ -15,21 +15,45 @@
         </style>
 </head>
 <body>
-<div id="top">
-    <div class="rows">
-         <button onclick="ohio(event,'Home')"> Home </button> 
-         <button onclick="ohio(event,'Menu')"> Menu </button> 
-         <button onclick="ohio(event,'Order')"> Order </button> 
-         <button onclick="ohio(event,'About')"> About </button> 
-    </div>
-
-
-
+<div class="top">
+ 
+         <button class="tablinks" onclick="ohio(event,'Home')"> Home </button> 
+         <button class="tablinks" onclick="ohio(event,'Menu')"> Menu </button> 
+         <button class="tablinks" onclick="ohio(event,'Order')"> Order </button> 
+         <button class="tablinks" onclick="ohio(event,'About')"> About </button> 
+  
 </div>
+<p>ngl this really needs to look better if were gonna make regional's but I suck at CSS :skull:<p>
+  <p> Im thinking about having a lot of images, and.....just we'll try to make it look profestional</p>
 
+   <div id="Home" class="tabcontent">
 
-   
+    <p>Home</p>
+    
+    </div>
+     <div id="Menu" class="tabcontent">
+
+    <p>Menu</p>
+    
+    </div>
+     <div id="Order" class="tabcontent">
+
+    <p>Order</p>
+    
+    </div>
+     <div id="About" class="tabcontent">
+
+    <p>About</p>
+    
+    </div>
     <script>
-
+    
+function ohio(evt,name){var i,tabcontent,tablinks;tabcontent=document.getElementsByClassName("tabcontent")
+    for(i=0;i<tabcontent.length;i++){tabcontent[i].style.display="none"}
+    tablinks=document.getElementsByClassName("tablinks");for(i=0;i<tablinks.length;i++){
+    tablinks[i].className=tablinks[i].className.replace(" active","")}
+   document.getElementById(name).style.display="block";evt.currentTarget.className+=" active"}
+     ohio("tablinks","Home");
+   function grands(){}
     </script>
 </body></html>
