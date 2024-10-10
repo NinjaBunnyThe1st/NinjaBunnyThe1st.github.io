@@ -2,14 +2,15 @@
 <html>
 <head>
     <style>
-      #wut{width:400px;height:400px;background-color:#ccc;border:3px solid;}
+      
+      #wut{width:400px;height:400px;background-color:#FFFFFF;border:1px solid;}
       #b1{width:1300px;text-align: center;height:700px;background-color:#FFFFFF;border:none;}
 
       #yepe{width:100px;height:20px;border:1px solid;background-color:#ccc;font-family: Montserrat;}
     body {font-family: Montserrat;}
         .top{overflow: hidden;border:1px solid;background-color: #FFFFFF}
         .top button{background-color: inherit;border:1px soild;outline:none;
-        ;padding:5px;transition:0.5s;font-size:50px;font-family: Montserrat}
+        ;padding:5px;transition:0.5s;font-size:50px;font-family: Montserrat;text-decoration-color:aqua;}
         .top button:hover {background-color: #08bd20}
         .top buttton.active{background-color: #ccc}
         .rowb{display:none;padding:6px;border:1px soild #ccc;border-top:none}
@@ -21,7 +22,7 @@
          <div id="b1">
 </head>
 <body>
- 
+
 <div class="top">
  
          <button class="tablinks" onclick="ohio(event,'Home')"> Home </button> 
@@ -30,23 +31,25 @@
          <button class="tablinks" onclick="ohio(event,'About')"> About </button> 
   
 </div>
-<p>ngl this really needs to look better if were gonna make regional's but I suck at CSS :skull:<p>
-  <p> Im thinking about having a lot of images, and.....just we'll try to make it look profestional</p>
 
    <div id="Home" class="tabcontent">
 
     <p>Home</p>
-   
+   <h2> 
     </div>
      <div id="Menu" class="tabcontent">
 
     <p>Menu</p>
-    <div id="wut"><h2>The Menu</h2></div><div id="b2">
+    <div id="wut">
+
+      <h2>The Menu</h2>
+      <div class="row"> <div class="column">I feel so skibidi!</div></div>
+      </div>
     </div>
      <div id="Order" class="tabcontent">
 
     <p>Order</p>
-    <label for="yepe">phone number</label>
+    <label for="yepe" style="font-size:30px">Phone Number</label>
     <textarea id="yepe"></textarea>
     </div>
      <div id="About" class="tabcontent">
