@@ -14,7 +14,7 @@ function grands() {
   var d = document.getElementById;
   var x = d("ordered");
   var y = d("yepe");
-  if (y.value != "") {
+  if (y.innerHTML != "") {
     x.innerHTML = "<h2>Cool</h2>";
     sleep(2000);
     x.innerHTML = "";
