@@ -2,7 +2,7 @@
 //The "Ohio" function is for the tab functionallty 
 //the b1 size is 900px meant to be open for side images.
 
-style.backgroundColor = 'green';
+
 var d = document.getElementById;
 
 function ohio(evt, name) {
