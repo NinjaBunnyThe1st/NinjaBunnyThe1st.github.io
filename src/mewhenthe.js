@@ -3,7 +3,7 @@
 //the b1 size is 900px meant to be open for side images.
 
 
-var d = document.getElementById;
+
 
 function ohio(evt, name) {
   var i, tabcontent, tablinks; tabcontent = document.getElementsByClassName("tabcontent")
@@ -14,6 +14,7 @@ function ohio(evt, name) {
     ohio("tablinks", "Home");
      
 function grands() {
+  var d = document.getElementById;
   var x = d("ordered");
   var y = d("yepe");
   if (y.innerHTML != "") {
