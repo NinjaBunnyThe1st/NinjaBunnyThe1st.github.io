@@ -1,6 +1,7 @@
 
 //The "Ohio" function is for the tab functionallty 
 //the b1 size is 900px meant to be open for side images.
+//Its gonna take a meracal to finish this even AS. Guess its a lessen for me.
 
 //This runs on load
 
@@ -8,7 +9,7 @@ onOpen()
 
 //This is what happens in the call 
 
-function onOpen(){style.backgroundColor="green";ohio("tablinks","Home");}
+function onOpen(){style.backgroundColor="green";ohio("tablinks","Home");return why}
 
 //The code for #top-top this makes the tabs
 
@@ -34,7 +35,7 @@ function grands() {
   else {
     x.innerHTML = "<h2>Goofy</h2>";
     sleep(2000);
-    x.innerHTML = "";
+    x.innerHTML = ""
   }
 }
 
