@@ -5,11 +5,7 @@
 
 //This runs on load
 
-onOpen()
-
-//This is what happens in the call 
-
-function onOpen(){style.backgroundColor="green";ohio("tablinks","Home");return why}
+style.backgroundColor="green";ohio("tablinks","Home");
 
 //The code for #top-top this makes the tabs
 
