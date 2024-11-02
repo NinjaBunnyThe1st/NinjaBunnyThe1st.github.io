@@ -1,9 +1,9 @@
 
       
-      #wut{width:400px;height:400px;background-color:#FFFFFF;border:1px;}
+      #wut{width:400px;height:400px;background-color:#FFFFFF;border:1px solid;text-align: center;}
       #b1{width: 1000px;text-align: center;height:700px;background-color:#FFFFFF;border:none;}
-      #b2{width: 200px;height: 500px;background-color:#FFFFFF;border:1px solid;float: left;}
-      #b3{width: 200px;height: 500px;background-color:#FFFFFF;border:1px solid;position: static;top: 500px;}
+      #b2{width: 200px;height: 700px;background-color:#FFFFFF;border:1px solid;float: left;}
+      #b3{width: 200px;height: 700px;background-color:#FFFFFF;border:1px solid;position: static;top: 1000px;float: right;}
  #bob{width: 100px;height: 100px;background-color: #08bd20;border: 0px;}
       #yepe{width:100px;height:20px;border:1px solid;background-color:#ccc;font-family: Montserrat;}
     body {font-family: Montserrat;}
@@ -15,8 +15,8 @@
         .rowb{display:none;padding:6px;border:1px soild gray;border-top:none}
         .no {color: rgb(255, 0, 0);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
       * {box-sizing: border-box;}
-      .column {float: left;width: 50%;padding: 5px;height: 10px;}
+      .column {float: left;width: 50%;padding: 8px;height: 10px;}
       .row:after {content: "";display: table;clear: both;}
 .top-top{width: 900px;height: 100px;border:1px rgba(131, 125, 125, 0.393);}
-#whar{float: right;height: 50px;width: 50px;}
+#whar{float: right;height: 100px;width: 100px;position: static;right: 30px;}
 

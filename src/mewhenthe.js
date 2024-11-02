@@ -3,10 +3,6 @@
 //the b1 size is 900px meant to be open for side images.
 //Its gonna take a meracal to finish this even AS. Guess its a lessen for me.
 
-//This runs on load
-ohio("tablinks","Home");
-
-
 //The code for #top-top this makes the tabs
 
 function ohio(evt, name) {
