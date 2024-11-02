@@ -4,8 +4,8 @@
 //Its gonna take a meracal to finish this even AS. Guess its a lessen for me.
 
 //This runs on load
+ohio("tablinks","Home");
 
-ohio("tablinks","Home")
 
 //The code for #top-top this makes the tabs
 
