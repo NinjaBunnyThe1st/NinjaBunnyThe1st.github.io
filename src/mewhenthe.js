@@ -5,7 +5,7 @@
 
 //This runs on load
 
-style.backgroundColor="green";ohio("tablinks","Home");
+document.onload(function(){ohio("tablinks","Home");});
 
 //The code for #top-top this makes the tabs
 
