@@ -5,7 +5,7 @@
 
 //This runs on load
 
-document.onload(function(){ohio("tablinks","Home");});
+ohio("tablinks","Home")
 
 //The code for #top-top this makes the tabs
 
