@@ -4,7 +4,8 @@
 //Its gonna take a meracal to finish this even AS. Guess its a lessen for me.
 
 //The code for #top-top this makes the tabs
-
+window.onload = function(){
+  ohio("tablinks","Home")}
 function ohio(evt, name) {
 var i,tabcontent,tablinks;tabcontent=document.getElementsByClassName("tabcontent")
 for(i=0;i<tabcontent.length;i++){tabcontent[i].style.display="none"}
