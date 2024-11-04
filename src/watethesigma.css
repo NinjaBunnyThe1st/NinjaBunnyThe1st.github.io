@@ -3,7 +3,7 @@
       #wut{width:400px;height:400px;background-color:#FFFFFF;border:1px solid;text-align: center;}
       #b1{width: 1000px;text-align: center;height:700px;background-color:#FFFFFF;border:none;}
       #b2{width: 200px;height: 700px;background-color:#FFFFFF;border:1px solid;float: left;}
-      #b3{width: 200px;height: 700px;background-color:#FFFFFF;border:1px solid;position: static;top: 1000px;float: right;}
+      #b3{width: 200px;height: 700px;background-color:#FFFFFF;border:1px solid;position: static;top: 2000px;float: right;}
  #bob{width: 100px;height: 100px;background-color: #08bd20;border: 0px;}
       #yepe{width:100px;height:20px;border:1px solid;background-color:#ccc;font-family: Montserrat;}
     body {font-family: Montserrat;}
